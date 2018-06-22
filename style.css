@@ -1,0 +1,120 @@
+body {
+  background-color: #0a0d17;
+  margin: 0 !important;
+  padding: 0 !important; }
+
+.logoSection {
+  height: 100vh;
+  background-image: url("img/logo_big.svg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%; }
+  .logoSection .scrollDownInstruction {
+    position: absolute;
+    width: 200px;
+    bottom: 4%;
+    text-align: center;
+    left: 50%;
+    margin-left: -100px;
+    color: #F1DABF;
+    line-height: 0px;
+    display: block; }
+    .logoSection .scrollDownInstruction img {
+      width: 20px; }
+    .logoSection .scrollDownInstruction p {
+      font-family: 'Orbitron', sans-serif; }
+    .logoSection .scrollDownInstruction a {
+      text-decoration: none;
+      color: #F1DABF; }
+    .logoSection .scrollDownInstruction a:hover {
+      cursor: pointer;
+      color: #F1DABF !important; }
+
+.fadeIn {
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  animation: fadeIn 3s; }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.nav {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  height: 50px;
+  background-color: #0a0d17;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif; }
+  .nav a:hover {
+    cursor: pointer;
+    color: #F1DABF !important; }
+  .nav .navRight {
+    float: right; }
+    .nav .navRight li {
+      display: inline-block; }
+      .nav .navRight li a {
+        text-decoration: none;
+        margin-right: 20px;
+        color: #FFFBFF; }
+  .nav .smallLogo {
+    height: 50px;
+    float: left;
+    display: inline-block;
+    margin-left: 20px; }
+  .hidden{
+    display: none;
+  }
+.content {
+  background-color: #FFFBFF;
+  color: #040D17;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .content .section-1 {
+    max-width: 60%;
+    margin: auto; }
+    .content .section-1 p {
+      padding-top: 2%;
+      padding-bottom: 3%;
+      font-size: 17px;
+      max-width: 100%; }
+    .content .section-1 h1 {
+      padding-top: 3%; }
+    .content .section-1 .welcomeText {
+      width: 100%; }
+
+.colRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.colleft2 {
+  display: block;
+  max-width: 30%;
+  float: left;
+  font-size: 15px; }
+  .colleft2 p {
+    display: block;
+    margin: auto;
+    width: 90%; }
+  .colleft2 img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 1%; }
+
+.sectionName {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: -20px; }
+
+/*# sourceMappingURL=style.css.map */
